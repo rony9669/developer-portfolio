@@ -1,39 +1,49 @@
-body,
-h1 {
-    font-family: Poppins, sans-serif;
-    margin: 0px;
-}
-
-h1 {
-    font-size: 50px;
-}
-
-span {
-    color: #ffa500;
-}
-
-img {
-    /* height: 80%; */
-    width: 80%;
-}
-
-section {
-    display: flex;
-    background: url(./images/top-banner.png);
-    background-repeat: no-repeat;
-}
-
-.half-width {
-    width: 50%;
-    padding-left: 5%;
-}
-
-.link-button {
-    text-decoration: none;
-    color: white;
-    background-image: linear-gradient(orange, tomato);
-    font-size: 20px;
-    font-weight: 700;
-    padding: 10px 40px;
-    border-radius: 5px;
-}
+    body,
+    h1 {
+        font-family: Poppins, sans-serif;
+        margin: 0px;
+    }
+    
+    h1 {
+        font-size: 50px;
+    }
+    
+    span {
+        color: #ffa500;
+    }
+    
+    img {
+        /* height: 80%; */
+        width: 80%;
+    }
+    
+    .top-banner {
+        display: flex;
+        background: url(./images/top-banner.png);
+        background-repeat: no-repeat;
+    }
+    
+    .half-width {
+        width: 50%;
+        padding-left: 5%;
+    }
+    
+    .link-button {
+        text-decoration: none;
+        color: white;
+        background-image: linear-gradient(orange, tomato);
+        font-size: 20px;
+        font-weight: 700;
+        padding: 10px 40px;
+        border-radius: 5px;
+    }
+    
+    .dream-big {
+        display: flex;
+    }
+    
+    .dream-big-bg {
+        background-image: url(./images/dream-bg.png);
+        background: no-repeat;
+        background-position: right;
+    }
