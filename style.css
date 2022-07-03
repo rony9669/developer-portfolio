@@ -8,7 +8,7 @@
         font-size: 50px;
     }
     
-    span {
+    .orange {
         color: #ffa500;
     }
     
@@ -17,8 +17,12 @@
         width: 80%;
     }
     
-    .top-banner {
+    .flexible-container {
         display: flex;
+        margin-bottom: 150px;
+    }
+    
+    .top-banner {
         background: url(./images/top-banner.png);
         background-repeat: no-repeat;
     }
@@ -38,12 +42,38 @@
         border-radius: 5px;
     }
     
-    .dream-big {
-        display: flex;
-    }
+    .dream-big {}
     
     .dream-big-bg {
         background-image: url(./images/dream-bg.png);
         background: no-repeat;
         background-position: right;
+    }
+    
+    .experiance-area {
+        background-image: url(./images/exp-bg.png);
+        background: no-repeat;
+        background-position: left;
+    }
+    
+    .shadow {
+        width: 42%;
+        margin: 0 4%;
+        padding-left: 20px;
+        box-shadow: 10px 10px 40px #696969;
+        border-radius: 10px;
+    }
+    
+    #left {
+        border-left: 7px solid red;
+    }
+    
+    #right {
+        border-left: 7px solid blue;
+    }
+    
+    .footer {
+        text-align: center;
+        font-size: 22px;
+        color: #696969;
     }
